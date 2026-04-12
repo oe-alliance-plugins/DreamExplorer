@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "DreamExplorer: Manage files on your Dreambox",
+  "description_recipe": "DreamExplorer: Manage files on your Dreambox",
+  "history_source_dir": "dreamexplorer",
+  "internal_package_name": "enigma2-plugin-extensions-dreamexplorer",
+  "module_dir_name": "DreamExplorer",
+  "output_subdir": "dreamexplorer",
+  "package_name": "enigma2-plugin-extensions-dreamexplorer",
+  "plugin_src_rel": "dreamexplorer",
+  "python_package": "DreamExplorer",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "DreamExplorer",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
