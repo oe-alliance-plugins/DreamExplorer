@@ -22,7 +22,6 @@
 # for localized messages
 from . import _
 
-from re import compile as re_compile
 from os import path as os_path, listdir, stat as os_stat
 from Components.MenuList import MenuList
 from Components.Harddisk import harddiskmanager
@@ -140,19 +139,19 @@ class FileList(MenuList):
 		return self.l.getCurrentSelection()[0]
 
 	def getCurrentEvent(self):
-		l = self.l.getCurrentSelection()
-		if not l or l[0][1] is True:
+		item = self.l.getCurrentSelection()
+		if not item or item[0][1] is True:
 			return None
 		else:
-			return self.serviceHandler.info(l[0][0]).getEvent(l[0][0])
+			return self.serviceHandler.info(item[0][0]).getEvent(item[0][0])
 
 	def getFileList(self):
 		return self.list
 
 	def inParentDirs(self, dir, parents):
-		dir = os_path.realpath(dir)
+		rdir = os_path.realpath(dir)
 		for p in parents:
-			if dir.startswith(p):
+			if rdir.startswith(p):
 				return True
 		return False
 
@@ -334,25 +333,21 @@ class FileList(MenuList):
 				tslen = ""
 		return tslen
 
-	def byNameFunc(self, a, b):
-		return cmp(b[0][1], a[0][1]) or cmp(a[1][7], b[1][7])
-
 	def sortName(self):
-		self.list.sort(self.byNameFunc)
-		#self.l.invalidate()
+		self.list.sort(key=lambda x: (-x[0][1], x[1][7]))
 		self.l.setList(self.list)
 		self.moveToIndex(0)
 
-	def byDateFunc(self, a, b):
-		try:
-			stat1 = os_stat(self.current_directory + a[0][0])
-			stat2 = os_stat(self.current_directory + b[0][0])
-		except OSError:
-			return 0
-		return cmp(b[0][1], a[0][1]) or cmp(stat2.st_ctime, stat1.st_ctime)
-
 	def sortDate(self):
-		self.list.sort(self.byDateFunc)
-		#self.l.invalidate()
+		def get_key(x):
+			try:
+				stat = os_stat(self.current_directory + x[0][0])
+				ctime = stat.st_ctime
+			except OSError:
+				ctime = 0
+
+			return (-x[0][1], -ctime)
+
+		self.list.sort(key=get_key)
 		self.l.setList(self.list)
 		self.moveToIndex(0)

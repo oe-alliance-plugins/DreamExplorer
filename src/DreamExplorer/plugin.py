@@ -21,6 +21,7 @@ from os import system as os_system, stat as os_stat, walk as os_walk, popen as o
 
 from os.path import join
 from time import strftime, localtime
+from enigma import eServiceReference, ePicLoad, getDesktop, eServiceCenter
 
 from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
@@ -34,7 +35,6 @@ from Components.ActionMap import ActionMap
 from Components.FileList import FileList
 from Components.MenuList import MenuList
 from Components.Label import Label
-from Components.ScrollLabel import ScrollLabel
 from Components.Pixmap import Pixmap
 from Components.config import config, ConfigSubsection, ConfigText
 from Components.Sources.StaticText import StaticText
@@ -48,7 +48,7 @@ from . import _
 
 from Screens.InputBox import InputBox
 try:
-	from Plugins.Extensions.PicturePlayer.plugin import Pic_Thumb, picshow
+	from Plugins.Extensions.PicturePlayer.plugin import Pic_Thumb, picshow  # noqa F401
 	PicPlayerAviable = True
 except ImportError:
 	PicPlayerAviable = False
@@ -64,7 +64,6 @@ try:
 	MMPavaiable = True
 except ImportError:
 	MMPavaiable = False
-from enigma import eConsoleAppContainer, eServiceReference, ePicLoad, getDesktop, eServiceCenter
 
 
 config.plugins.DreamExplorer = ConfigSubsection()
@@ -83,10 +82,10 @@ else:
 
 
 def Plugins(**kwargs):
-	list = [PluginDescriptor(name="Dream-Explorer", description=_("Explore your Dreambox."), where=[PluginDescriptor.WHERE_PLUGINMENU], icon="dreamexplorer.png", fnc=main)]
-	list.append(PluginDescriptor(name=_("Dream-Explorer"), where=PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main))
+	plist = [PluginDescriptor(name="Dream-Explorer", description=_("Explore your Dreambox."), where=[PluginDescriptor.WHERE_PLUGINMENU], icon="dreamexplorer.png", fnc=main)]
+	plist.append(PluginDescriptor(name=_("Dream-Explorer"), where=PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main))
 	# list.append(PluginDescriptor(where = [PluginDescriptor.WHERE_SESSIONSTART],fnc = autostart))
-	return list
+	return plist
 
 
 def main(session, **kwargs):
@@ -435,9 +434,9 @@ class DreamExplorerII(Screen):
 			dei = self.session.openWithCallback(self.callbackSetStartDir, MessageBox, _("Do you want to set\n" + newStartDir + "\nas start directory?"), MessageBox.TYPE_YESNO)
 			dei.setTitle(_("Dream-Explorer..."))
 		elif answer == "SORTNAME":
-			list = self.sortName()
+			list = self.sortName()  # noqa F841
 		elif answer == "SORTDATE":
-			list = self.sortDate()
+			list = self.sortDate()  # noqa F841
 		elif answer == "HELP":
 			hilfe = "Dreambox-Explorer\ncoded 2010 by Vali\n\nSupport & Help on\nwww.dreambox-tools.info"
 			dei = self.session.open(MessageBox, _(hilfe), MessageBox.TYPE_INFO)
@@ -649,7 +648,7 @@ class DreamExplorerII(Screen):
 			config.plugins.DreamExplorer.startDir.save()
 
 	def sortName(self):
-		list = self["filelist"].sortName()
+		list = self["filelist"].sortName()  # noqa F841
 		try:
 			if self.MediaFilter:
 				self.setTitle(_("[sort by Name] ") + self["filelist"].getCurrentDirectory())
@@ -659,7 +658,7 @@ class DreamExplorerII(Screen):
 			self.setTitle(_("Dream-Explorer"))
 
 	def sortDate(self):
-		list = self["filelist"].sortDate()
+		list = self["filelist"].sortDate()  # noqa F841
 		try:
 			if self.MediaFilter:
 				self.setTitle(_("[sort by Date] ") + self["filelist"].getCurrentDirectory())
