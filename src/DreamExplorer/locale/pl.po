@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-12 11:49+0200\n"
+"POT-Creation-Date: 2026-04-12 20:28+0200\n"
 "PO-Revision-Date: 2017-06-02 20:32+0200\n"
 "Last-Translator: hawkeye116477 <hawkeye116477@gmail.com>\n"
 "Language-Team: \n"
@@ -13,12 +13,14 @@ msgstr ""
 "X-Generator: Poedit 2.0.1\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#: ../plugin.py:531
 msgid ""
 "\n"
 "\n"
 "You do it at your own risk!"
 msgstr ""
 
+#: ../plugin.py:749
 msgid ""
 "\n"
 "have been CHANGED! Do you want to save it?\n"
@@ -30,9 +32,12 @@ msgid ""
 "for DATA LOST OR DISORDERS !!!"
 msgstr ""
 
+#: ../plugin.py:332 ../plugin.py:344 ../plugin.py:353
 msgid " Media-filter"
 msgstr " Filtr multimedialny"
 
+#: ../plugin.py:542 ../plugin.py:554 ../plugin.py:608 ../plugin.py:626
+#: ../plugin.py:1131 ../plugin.py:1149 ../plugin.py:1154
 #, python-format
 msgid ""
 "%s \n"
@@ -41,197 +46,268 @@ msgstr ""
 "%s \n"
 "NIE POWIODŁO SIĘ!"
 
+#: ../plugin.py:339 ../plugin.py:348 ../plugin.py:362
 msgid "About"
 msgstr "O wtyczce"
 
+#: ../plugin.py:329
 msgid "Add directory to Bookmarks"
 msgstr ""
 
+#: ../plugin.py:274
 msgid "BZ2-package:\\n"
 msgstr "Paczka bz2:\\n"
 
+#: ../plugin.py:171
 #, fuzzy
 msgid "Bookmarks"
 msgstr "Moje zakładki"
 
+#: ../plugin.py:264
 msgid "Bootlogo-package:\\n"
 msgstr "Paczka bootlogo:\\n"
 
+#: ../plugin.py:263 ../plugin.py:268 ../plugin.py:273 ../plugin.py:281
+#: ../plugin.py:286 ../plugin.py:291 ../plugin.py:331 ../plugin.py:343
+#: ../plugin.py:352 ../plugin.py:514
 msgid "Cancel"
 msgstr "Anuluj"
 
+#: ../plugin.py:1096
 msgid "Copy"
 msgstr ""
 
+#: ../plugin.py:337 ../plugin.py:358
 msgid "Create new directory"
 msgstr "Utwórz nowy katalog"
 
+#: ../plugin.py:431
 msgid "Create new directory in..."
 msgstr "Utwórz nowy katalog w..."
 
+#: ../plugin.py:336 ../plugin.py:357
 msgid "Create new file"
 msgstr "Utwórz nowy plik"
 
+#: ../plugin.py:429
 msgid "Create new file in..."
 msgstr "Utwórz nowy plik w..."
 
+#: ../plugin.py:359
 msgid "Create softlink..."
 msgstr "Utwórz dowiązanie miękkie (symboliczne)..."
 
+#: ../plugin.py:168
 msgid "Delete"
 msgstr ""
 
+#: ../plugin.py:617
 msgid "Directory name error !"
 msgstr "Błąd w nazwie katalogu!"
 
+#: ../plugin.py:321
 msgid "Disable"
 msgstr ""
 
+#: ../plugin.py:286
 msgid "Disassemble to bytecode..."
 msgstr "Rozbierz na kod bajtowy..."
 
+#: ../plugin.py:527 ../plugin.py:531
 #, fuzzy
 msgid "Do you really want to DELETE:\n"
 msgstr "Czy na pewno chcesz USUNĄĆ:\n"
 
+#: ../plugin.py:292
 msgid "Do you want to execute?\\n"
 msgstr "Czy chcesz wykonać?"
 
+#: ../plugin.py:434
 msgid "Do you want to set\n"
 msgstr "Czy chcesz ustawić\n"
 
+#: ../plugin.py:1216
 msgid "Dream Explorer..."
 msgstr "Dream Explorer..."
 
+#: ../plugin.py:86 ../plugin.py:305 ../plugin.py:318 ../plugin.py:341
+#: ../plugin.py:350 ../plugin.py:364 ../plugin.py:385 ../plugin.py:391
+#: ../plugin.py:408 ../plugin.py:488 ../plugin.py:518 ../plugin.py:543
+#: ../plugin.py:555 ../plugin.py:579 ../plugin.py:591 ../plugin.py:600
+#: ../plugin.py:609 ../plugin.py:618 ../plugin.py:627 ../plugin.py:658
+#: ../plugin.py:668 ../plugin.py:1132 ../plugin.py:1150 ../plugin.py:1155
+#: ../plugin.py:1223 ../plugin.py:1247
 msgid "Dream-Explorer"
 msgstr "Dream-Explorer"
 
+#: ../plugin.py:532
 msgid "Dream-Explorer - DELETE DIRECTORY..."
 msgstr "Dream-Explorer - usuń katalog..."
 
+#: ../plugin.py:528
 msgid "Dream-Explorer - DELETE file..."
 msgstr "Dream-Explorer - usuń plik..."
 
+#: ../plugin.py:288
 msgid "Dream-Explorer : Disassemble..."
 msgstr "Dream-Explorer : rozbierz..."
 
+#: ../plugin.py:265 ../plugin.py:270 ../plugin.py:275 ../plugin.py:283
 msgid "Dream-Explorer : Install..."
 msgstr "Dream-Explorer : zainstaluj..."
 
+#: ../plugin.py:435 ../plugin.py:523 ../plugin.py:561 ../plugin.py:633
+#: ../plugin.py:751
 msgid "Dream-Explorer..."
 msgstr "Dream-Explorer..."
 
+#: ../plugin.py:487
 msgid "Dreambox: "
 msgstr ""
 
+#: ../plugin.py:770
 msgid "Edit line "
 msgstr "Edycja wiersza"
 
+#: ../plugin.py:321
 msgid "Enable"
 msgstr ""
 
+#: ../plugin.py:304
 msgid "Error by reading bookmarks !!!"
 msgstr "Błąd w odczycie zakładek !!!"
 
+#: ../plugin.py:390 ../plugin.py:407
 msgid "Error by writing bookmarks !!!"
 msgstr "Błąd w zapisie zakładek !!!"
 
+#: ../plugin.py:773
 msgid "Error..."
 msgstr "Błąd..."
 
+#: ../plugin.py:85
 #, fuzzy
 msgid "Explore your Dreambox."
 msgstr "Przeglądaj pliki na swoim tunerze"
 
+#: ../plugin.py:599
 msgid "File name error !"
 msgstr "Błąd w nazwie pliku !"
 
+#: ../plugin.py:269
 msgid "GZ-package:\\n"
 msgstr "Paczka gz:\\n"
 
+#: ../plugin.py:174
 msgid "INFO"
 msgstr ""
 
+#: ../plugin.py:282
 #, fuzzy
 msgid "IPKG-package:\\n"
 msgstr "Pakiet OPKG:\\n"
 
+#: ../plugin.py:242
 msgid "Incompatible MerlinMusicPlayer version!"
 msgstr "Niekompatybilna wersja wtyczki MerlinMusicPlayer"
 
+#: ../plugin.py:443
 msgid "Info..."
 msgstr "Informacje..."
 
+#: ../plugin.py:1048
 msgid "Input"
 msgstr "Wpisz"
 
+#: ../plugin.py:263
 msgid "Install new bootlogo..."
 msgstr "Instalowanie nowego loga startowego..."
 
+#: ../plugin.py:268 ../plugin.py:273 ../plugin.py:281
 msgid "Install this package"
 msgstr "Zainstaluj ten pakiet"
 
+#: ../myFileList.py:209
 msgid "List of Storage Devices"
 msgstr "Lista nośników danych"
 
+#: ../plugin.py:173
 msgid "MENU"
 msgstr ""
 
+#: ../plugin.py:1206
 #, fuzzy
 msgid "Make a softlink"
 msgstr "Zrób dowiązanie symboliczne..."
 
+#: ../plugin.py:1199
 #, fuzzy
 msgid "Make a softlink..."
 msgstr "Zrób dowiązanie symboliczne..."
 
+#: ../plugin.py:1095
 msgid "Move"
 msgstr ""
 
+#: ../plugin.py:170
 msgid "Move/Copy"
 msgstr ""
 
+#: ../plugin.py:517
 msgid "My Bookmarks"
 msgstr "Moje zakładki"
 
+#: ../plugin.py:897 ../plugin.py:910
 msgid "No more picture-files."
 msgstr "Brak zdjęć."
 
+#: ../plugin.py:997 ../plugin.py:1007
 msgid "No more playable files."
 msgstr "Brak odtwarzalnych plików."
 
+#: ../plugin.py:340 ../plugin.py:349 ../plugin.py:363
 msgid "Options:\n"
 msgstr "Opcje:\n"
 
+#: ../plugin.py:347
 msgid "Pack my bootlogo"
 msgstr "Spakuj moje bootlogo"
 
+#: ../myFileList.py:211
 msgid "Parent Directory"
 msgstr "Katalog nadrzędny"
 
+#: ../plugin.py:384
 #, fuzzy
 msgid "Picture-Player not aviable."
 msgstr "Odtwarzacz zdjęć jest niedostępny!"
 
+#: ../plugin.py:356
 msgid "Preview all pictures"
 msgstr "Podgląd wszystkich zdjęć"
 
+#: ../plugin.py:287
 msgid "Pyc-Script:\\n"
 msgstr "Skrypt pyc:\\n"
 
+#: ../plugin.py:326
 msgid "Remove directory from Bookmarks"
 msgstr ""
 
+#: ../plugin.py:169
 #, fuzzy
 msgid "Rename"
 msgstr "Zmień nazwę pliku..."
 
+#: ../plugin.py:568
 msgid "Rename directory..."
 msgstr "Zmień nazwę katalogu..."
 
+#: ../plugin.py:565
 msgid "Rename file..."
 msgstr "Zmień nazwę pliku..."
 
+#: ../plugin.py:578 ../plugin.py:590
 #, python-format
 msgid ""
 "Rename: %s \n"
@@ -240,49 +316,64 @@ msgstr ""
 "Zmiana nazwy: %s \n"
 "NIE POWIODŁA SIĘ!"
 
+#: ../plugin.py:1035
 msgid "Running processes: "
 msgstr ""
 
+#: ../plugin.py:1092
 msgid "Select Copy/Move location..."
 msgstr ""
 
+#: ../plugin.py:360
 msgid "Set archive mode (644)"
 msgstr "Ustaw tryb archiwum (644)"
 
+#: ../plugin.py:361
 msgid "Set executable mode (755)"
 msgstr "Ustaw tryb wykonywalny (755)"
 
+#: ../plugin.py:1203
 #, fuzzy
 msgid "Set first the Softlink name ..."
 msgstr "Napisz tutaj nową nazwę dowiązania symbolicznego:"
 
+#: ../plugin.py:1205
 msgid "Set name"
 msgstr ""
 
+#: ../plugin.py:338
 msgid "Set start directory"
 msgstr "Ustaw katalog startowy"
 
+#: ../plugin.py:1222 ../plugin.py:1246
 msgid "Softlink name error !"
 msgstr "Błąd w nazwie dowiązania symbolicznego !"
 
+#: ../plugin.py:334 ../plugin.py:346 ../plugin.py:355
 msgid "Sort by date (bouquet-)"
 msgstr "Sortuj według daty (bukiet-)"
 
+#: ../plugin.py:333 ../plugin.py:345 ../plugin.py:354
 msgid "Sort by name (bouquet+)"
 msgstr "Sortuj według nazwy (bukiet+)"
 
+#: ../plugin.py:291
 msgid "Start execution"
 msgstr "Rozpocznij wykonywanie"
 
+#: ../plugin.py:772
 msgid "This line is not editable!"
 msgstr "Ten wiersz nie jest edytowalny!"
 
+#: ../plugin.py:522 ../plugin.py:560 ../plugin.py:632
 msgid "Turn off the media-filter first."
 msgstr "Najpierw wyłącz filtr multimedialny."
 
+#: ../plugin.py:291
 msgid "View this shell-script"
 msgstr "Wyświetl ten skrypt powłoki"
 
+#: ../plugin.py:1097
 #, fuzzy, python-format
 msgid ""
 "WARNING! they doing now COPY or MOVE\n"
@@ -290,6 +381,7 @@ msgid ""
 "to:"
 msgstr "UWAGA! oni teraz KOPIUJĄ lub PRZENOSZĄ\n"
 
+#: ../plugin.py:1227
 #, fuzzy, python-format
 msgid ""
 "WARNING! they make now a softlink from\n"
@@ -297,29 +389,38 @@ msgid ""
 "to:"
 msgstr "UWAGA! oni teraz robią dowiązanie symboliczne z\n"
 
+#: ../plugin.py:1216
 msgid "Write the new softlink name here:"
 msgstr "Napisz tutaj nową nazwę dowiązania symbolicznego:"
 
+#: ../plugin.py:316
 msgid "[All files] "
 msgstr "[Wszystkie pliki] "
 
+#: ../plugin.py:314
 msgid "[Media files] "
 msgstr "[Pliki multimedialna] "
 
+#: ../plugin.py:664 ../plugin.py:666
 msgid "[sort by Date] "
 msgstr "[Sortowanie według daty] "
 
+#: ../plugin.py:654 ../plugin.py:656
 msgid "[sort by Name] "
 msgstr "[Sortowanie według nazwy] "
 
+#: ../plugin.py:851 ../plugin.py:892 ../plugin.py:905
 msgid "loading... "
 msgstr "ładowanie..."
 
+#: ../plugin.py:565 ../plugin.py:568 ../plugin.py:770
 msgid "old:  "
 msgstr "stary: "
 
+#: ../plugin.py:881
 msgid "ready..."
 msgstr "gotowe..."
 
+#: ../plugin.py:895 ../plugin.py:908 ../plugin.py:914
 msgid "wait..."
 msgstr "czekaj..."

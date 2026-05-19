@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ims\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-12 11:49+0200\n"
+"POT-Creation-Date: 2026-04-12 20:28+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims21@users.sourceforge.net>\n"
@@ -13,12 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
+#: ../plugin.py:531
 msgid ""
 "\n"
 "\n"
 "You do it at your own risk!"
 msgstr ""
 
+#: ../plugin.py:749
 msgid ""
 "\n"
 "have been CHANGED! Do you want to save it?\n"
@@ -31,9 +33,12 @@ msgid ""
 msgstr ""
 
 #
+#: ../plugin.py:332 ../plugin.py:344 ../plugin.py:353
 msgid " Media-filter"
 msgstr " multimediální filtr"
 
+#: ../plugin.py:542 ../plugin.py:554 ../plugin.py:608 ../plugin.py:626
+#: ../plugin.py:1131 ../plugin.py:1149 ../plugin.py:1154
 #, python-format
 msgid ""
 "%s \n"
@@ -43,218 +48,289 @@ msgstr ""
 "SELHALO!"
 
 #
+#: ../plugin.py:339 ../plugin.py:348 ../plugin.py:362
 msgid "About"
 msgstr "O přijímači"
 
+#: ../plugin.py:329
 msgid "Add directory to Bookmarks"
 msgstr ""
 
+#: ../plugin.py:274
 msgid "BZ2-package:\\n"
 msgstr "BZ2-balíček:\\n"
 
 #
+#: ../plugin.py:171
 #, fuzzy
 msgid "Bookmarks"
 msgstr "Záložky"
 
+#: ../plugin.py:264
 msgid "Bootlogo-package:\\n"
 msgstr "Bootlogo-balíček:\\n"
 
 #
+#: ../plugin.py:263 ../plugin.py:268 ../plugin.py:273 ../plugin.py:281
+#: ../plugin.py:286 ../plugin.py:291 ../plugin.py:331 ../plugin.py:343
+#: ../plugin.py:352 ../plugin.py:514
 msgid "Cancel"
 msgstr "Zavřít"
 
+#: ../plugin.py:1096
 msgid "Copy"
 msgstr ""
 
 #
+#: ../plugin.py:337 ../plugin.py:358
 msgid "Create new directory"
 msgstr "Založit adresář"
 
 #
+#: ../plugin.py:431
 msgid "Create new directory in..."
 msgstr "Založit adresář v..."
 
+#: ../plugin.py:336 ../plugin.py:357
 msgid "Create new file"
 msgstr "Založit soubor"
 
+#: ../plugin.py:429
 msgid "Create new file in..."
 msgstr "Založit soubor v..."
 
+#: ../plugin.py:359
 msgid "Create softlink..."
 msgstr "Vytvořit softlink..."
 
+#: ../plugin.py:168
 msgid "Delete"
 msgstr ""
 
 #
+#: ../plugin.py:617
 msgid "Directory name error !"
 msgstr "Chyba v názvu adresáře!"
 
+#: ../plugin.py:321
 msgid "Disable"
 msgstr ""
 
+#: ../plugin.py:286
 msgid "Disassemble to bytecode..."
 msgstr "Disassemble na bytecode..."
 
 #
+#: ../plugin.py:527 ../plugin.py:531
 #, fuzzy
 msgid "Do you really want to DELETE:\n"
 msgstr "Opravdu chcete ODSTRANIT:\n"
 
 #
+#: ../plugin.py:292
 msgid "Do you want to execute?\\n"
 msgstr "Chcete provést?\\n?"
 
+#: ../plugin.py:434
 msgid "Do you want to set\n"
 msgstr "Chcete nastavit\n"
 
+#: ../plugin.py:1216
 msgid "Dream Explorer..."
 msgstr ""
 
+#: ../plugin.py:86 ../plugin.py:305 ../plugin.py:318 ../plugin.py:341
+#: ../plugin.py:350 ../plugin.py:364 ../plugin.py:385 ../plugin.py:391
+#: ../plugin.py:408 ../plugin.py:488 ../plugin.py:518 ../plugin.py:543
+#: ../plugin.py:555 ../plugin.py:579 ../plugin.py:591 ../plugin.py:600
+#: ../plugin.py:609 ../plugin.py:618 ../plugin.py:627 ../plugin.py:658
+#: ../plugin.py:668 ../plugin.py:1132 ../plugin.py:1150 ../plugin.py:1155
+#: ../plugin.py:1223 ../plugin.py:1247
 msgid "Dream-Explorer"
 msgstr ""
 
+#: ../plugin.py:532
 msgid "Dream-Explorer - DELETE DIRECTORY..."
 msgstr "Dream-Explorer - ODSTRANIT ADRESÁŘ..."
 
+#: ../plugin.py:528
 msgid "Dream-Explorer - DELETE file..."
 msgstr "Dream-Explorer - ODSTRANIT soubor..."
 
+#: ../plugin.py:288
 msgid "Dream-Explorer : Disassemble..."
 msgstr ""
 
+#: ../plugin.py:265 ../plugin.py:270 ../plugin.py:275 ../plugin.py:283
 msgid "Dream-Explorer : Install..."
 msgstr "Dream-Explorer : Instalovat..."
 
+#: ../plugin.py:435 ../plugin.py:523 ../plugin.py:561 ../plugin.py:633
+#: ../plugin.py:751
 msgid "Dream-Explorer..."
 msgstr ""
 
+#: ../plugin.py:487
 msgid "Dreambox: "
 msgstr ""
 
 #
+#: ../plugin.py:770
 msgid "Edit line "
 msgstr "Upravit řádek "
 
+#: ../plugin.py:321
 msgid "Enable"
 msgstr ""
 
+#: ../plugin.py:304
 msgid "Error by reading bookmarks !!!"
 msgstr "Chyba při čtení záložek !!!"
 
+#: ../plugin.py:390 ../plugin.py:407
 msgid "Error by writing bookmarks !!!"
 msgstr "Chyba při zápisu záložek !!!"
 
 #
+#: ../plugin.py:773
 msgid "Error..."
 msgstr "Chyba..."
 
+#: ../plugin.py:85
 #, fuzzy
 msgid "Explore your Dreambox."
 msgstr "Průzkumník Vašeho boxu"
 
+#: ../plugin.py:599
 msgid "File name error !"
 msgstr "Chyba v názvu souboru!"
 
+#: ../plugin.py:269
 msgid "GZ-package:\\n"
 msgstr "GZ-balíček:\\n"
 
+#: ../plugin.py:174
 msgid "INFO"
 msgstr ""
 
+#: ../plugin.py:282
 #, fuzzy
 msgid "IPKG-package:\\n"
 msgstr "OPKG-balíček:\\n"
 
+#: ../plugin.py:242
 msgid "Incompatible MerlinMusicPlayer version!"
 msgstr "Nekompatibilní verze MerlinMusicPlayer!"
 
 #
+#: ../plugin.py:443
 msgid "Info..."
 msgstr "Informace..."
 
 #
+#: ../plugin.py:1048
 msgid "Input"
 msgstr "Zadání"
 
 #
+#: ../plugin.py:263
 msgid "Install new bootlogo..."
 msgstr "Instalovat nové bootlogo..."
 
 #
+#: ../plugin.py:268 ../plugin.py:273 ../plugin.py:281
 msgid "Install this package"
 msgstr "Instalovat tento balíček"
 
 #
+#: ../myFileList.py:209
 msgid "List of Storage Devices"
 msgstr "Seznam záznamových zařízení"
 
+#: ../plugin.py:173
 msgid "MENU"
 msgstr ""
 
+#: ../plugin.py:1206
 #, fuzzy
 msgid "Make a softlink"
 msgstr "Vytvořit softlink..."
 
+#: ../plugin.py:1199
 #, fuzzy
 msgid "Make a softlink..."
 msgstr "Vytvořit softlink..."
 
+#: ../plugin.py:1095
 msgid "Move"
 msgstr ""
 
+#: ../plugin.py:170
 msgid "Move/Copy"
 msgstr ""
 
 #
+#: ../plugin.py:517
 msgid "My Bookmarks"
 msgstr "Záložky"
 
+#: ../plugin.py:897 ../plugin.py:910
 msgid "No more picture-files."
 msgstr "Nejsou již zádné obrázky."
 
+#: ../plugin.py:997 ../plugin.py:1007
 msgid "No more playable files."
 msgstr "Nejsou již žádné přehratelné soubory."
 
 #
+#: ../plugin.py:340 ../plugin.py:349 ../plugin.py:363
 msgid "Options:\n"
 msgstr "Možnosti:\n"
 
+#: ../plugin.py:347
 msgid "Pack my bootlogo"
 msgstr "Zabalit moje bootlogo"
 
 #
+#: ../myFileList.py:211
 msgid "Parent Directory"
 msgstr "Rodičovský adresář"
 
+#: ../plugin.py:384
 #, fuzzy
 msgid "Picture-Player not aviable."
 msgstr "Přehrávač obrázků není dostupný!"
 
 #
+#: ../plugin.py:356
 msgid "Preview all pictures"
 msgstr "Prohlédnout všechny obrázky"
 
+#: ../plugin.py:287
 msgid "Pyc-Script:\\n"
 msgstr ""
 
+#: ../plugin.py:326
 msgid "Remove directory from Bookmarks"
 msgstr ""
 
 #
+#: ../plugin.py:169
 #, fuzzy
 msgid "Rename"
 msgstr "Přejmenovat soubor..."
 
 #
+#: ../plugin.py:568
 msgid "Rename directory..."
 msgstr "Přejmenovat adresář..."
 
 #
+#: ../plugin.py:565
 msgid "Rename file..."
 msgstr "Přejmenovat soubor..."
 
+#: ../plugin.py:578 ../plugin.py:590
 #, python-format
 msgid ""
 "Rename: %s \n"
@@ -263,53 +339,68 @@ msgstr ""
 "Přejmenovat: %s \n"
 "SELHALO!"
 
+#: ../plugin.py:1035
 msgid "Running processes: "
 msgstr ""
 
+#: ../plugin.py:1092
 msgid "Select Copy/Move location..."
 msgstr ""
 
+#: ../plugin.py:360
 msgid "Set archive mode (644)"
 msgstr "Nastavit archivní mód (644)"
 
+#: ../plugin.py:361
 msgid "Set executable mode (755)"
 msgstr "Nastavit spouštěcí mód (755)"
 
+#: ../plugin.py:1203
 #, fuzzy
 msgid "Set first the Softlink name ..."
 msgstr "Zapište název nového softlinku:"
 
+#: ../plugin.py:1205
 msgid "Set name"
 msgstr ""
 
 #
+#: ../plugin.py:338
 msgid "Set start directory"
 msgstr "Nastavit výchozí adresář"
 
+#: ../plugin.py:1222 ../plugin.py:1246
 msgid "Softlink name error !"
 msgstr "Chyba v názvu Softlinku!"
 
 #
+#: ../plugin.py:334 ../plugin.py:346 ../plugin.py:355
 msgid "Sort by date (bouquet-)"
 msgstr "Třídit podle stáří (bouquet-)"
 
+#: ../plugin.py:333 ../plugin.py:345 ../plugin.py:354
 msgid "Sort by name (bouquet+)"
 msgstr "Třídit podle názvu (bouquet+)"
 
 #
+#: ../plugin.py:291
 msgid "Start execution"
 msgstr "Spustit"
 
 #
+#: ../plugin.py:772
 msgid "This line is not editable!"
 msgstr "Tato řádka nejde upravit!"
 
+#: ../plugin.py:522 ../plugin.py:560 ../plugin.py:632
 msgid "Turn off the media-filter first."
 msgstr "Nejdříve vypněte multimediální filtr."
 
+#: ../plugin.py:291
 msgid "View this shell-script"
 msgstr "Prohlédnout tento shell-script"
 
+#: ../plugin.py:1097
 #, fuzzy, python-format
 msgid ""
 "WARNING! they doing now COPY or MOVE\n"
@@ -317,6 +408,7 @@ msgid ""
 "to:"
 msgstr "POZOR! Právě se Kopíruje/Přemísťuje\n"
 
+#: ../plugin.py:1227
 #, fuzzy, python-format
 msgid ""
 "WARNING! they make now a softlink from\n"
@@ -324,32 +416,41 @@ msgid ""
 "to:"
 msgstr "POZOR! Vytváří se softlink z\n"
 
+#: ../plugin.py:1216
 msgid "Write the new softlink name here:"
 msgstr "Zapište název nového softlinku:"
 
+#: ../plugin.py:316
 msgid "[All files] "
 msgstr "[všechny soubory] "
 
 #
+#: ../plugin.py:314
 msgid "[Media files] "
 msgstr "[multimediální soubory] "
 
+#: ../plugin.py:664 ../plugin.py:666
 msgid "[sort by Date] "
 msgstr "[podle stáří] "
 
+#: ../plugin.py:654 ../plugin.py:656
 msgid "[sort by Name] "
 msgstr "[podle názvu] "
 
 #
+#: ../plugin.py:851 ../plugin.py:892 ../plugin.py:905
 msgid "loading... "
 msgstr "nahrávání... "
 
+#: ../plugin.py:565 ../plugin.py:568 ../plugin.py:770
 msgid "old:  "
 msgstr "starý: "
 
+#: ../plugin.py:881
 msgid "ready..."
 msgstr "připraven..."
 
 #
+#: ../plugin.py:895 ../plugin.py:908 ../plugin.py:914
 msgid "wait..."
 msgstr "čekejte..."
